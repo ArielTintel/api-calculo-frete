@@ -1,0 +1,12 @@
+spring:
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+  datasource:
+#   database Heroku
+    platform: postgres
+    url: jdbc:postgresql://ec2-34-239-241-121.compute-1.amazonaws.com:5432/ddut1r2dv2238s
+    username: woomofklmsazwr
+    password: 25313663fcf6195df78a04926ae24a4e34f331bcd0d16789c065631f5a58092b
+    driverClassName: org.postgresql.Driver
